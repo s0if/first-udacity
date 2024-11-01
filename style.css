@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import "./CSS/font.css";
 
 * {
     border: 0;
@@ -52,4 +52,28 @@ h2::before {
 
 h2::after {
     right: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+
+
+        font-weight: 100;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contaner {
+        padding: 0;
+    }
+
+    h2::before,
+    h2::after {
+        width: 20%;
+    }
+
+
 }

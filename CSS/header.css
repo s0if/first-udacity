@@ -9,6 +9,10 @@ nav .contaner {
     background-color: aliceblue;
 }
 
+nav .list img {
+    display: none;
+}
+
 nav ul {
     display: flex;
     gap: 0.9rem;
@@ -27,4 +31,31 @@ header .logo {
 
 header .logo img {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 500px) {
+
+    nav .contaner {
+        padding: 0 1rem;
+        background-color: #ccc;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .list img {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    header .logo {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    header .logo img {
+        border-radius: 50%;
+    }
 }

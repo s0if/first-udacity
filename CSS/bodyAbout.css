@@ -3,6 +3,13 @@
     justify-content: space-around;
 }
 
+.abut-me .contaner {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 5rem 0;
+}
+
 .body-about .text-container {
     width: 34.5rem;
     height: auto;
@@ -23,10 +30,22 @@
     border-radius: 10%;
 }
 
-.abut-me .contaner {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+@media screen and (max-width: 500px) {
+    .body-about .text-container {
+        width: auto;
+        gap: 0.1rem;
+    }
 
-    margin: 5rem 0;
+    .body-about .my-picture {
+        width: 100rem;
+
+    }
+
+    figcaption {
+        display: none;
+    }
+
+    .abut-me .contaner {
+        gap: 0.5rem;
+    }
 }
