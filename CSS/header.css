@@ -34,7 +34,6 @@ header .logo img {
 }
 
 @media screen and (max-width: 500px) {
-
     nav .contaner {
         padding: 0 1rem;
         background-color: #ccc;
@@ -54,8 +53,18 @@ header .logo img {
         width: 1rem;
         height: 1rem;
     }
+}
 
-    header .logo img {
-        border-radius: 50%;
+@media screen and (max-width: 900px) {
+    nav .contaner {
+        padding: 0 1rem;
+        background-color: #ccc;
+        justify-content: space-around;
+
+    }
+
+    header .logo {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }

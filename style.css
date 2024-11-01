@@ -1,4 +1,10 @@
 @import "./CSS/font.css";
+@import "./CSS/bodyAbout.css";
+@import "./CSS/contact.css";
+@import "./CSS/experience.css";
+@import "./CSS/footer.css";
+@import "./CSS/header.css";
+@import "./CSS/projects.css";
 
 * {
     border: 0;
@@ -12,6 +18,7 @@
 
 body {
     background-color: #ccc;
+
 }
 
 nav ul {
@@ -73,6 +80,27 @@ h2::after {
     h2::before,
     h2::after {
         width: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    * {
+
+
+        font-weight: 200;
+    }
+
+
+
+    .contaner {
+        padding: 0.5rem
+    }
+
+    h2::before,
+    h2::after {
+        width: 35%;
     }
 
 

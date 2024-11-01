@@ -43,3 +43,14 @@
         border: solid 0.1rem #000;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .experience .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience .jop-title {
+        border: solid 0.1rem #000;
+    }
+}
