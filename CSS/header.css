@@ -1,0 +1,30 @@
+nav .contaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.9rem;
+}
+
+nav ul li {
+    background-color: rgb(9, 119, 83);
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+header .logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+header .logo img {
+    border-radius: 50%;
+}
