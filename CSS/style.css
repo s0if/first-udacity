@@ -1,10 +1,10 @@
-@import "./CSS/font.css";
-@import "./CSS/bodyAbout.css";
-@import "./CSS/contact.css";
-@import "./CSS/experience.css";
-@import "./CSS/footer.css";
-@import "./CSS/header.css";
-@import "./CSS/projects.css";
+@import "./font.css";
+@import "./bodyAbout.css";
+@import "./contact.css";
+@import "./experience.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./projects.css";
 
 * {
     border: 0;
