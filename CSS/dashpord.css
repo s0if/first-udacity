@@ -1,0 +1,33 @@
+.dashbord {
+    display: grid;
+    grid-template-areas: ". col col col";
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    margin-top: 2rem;
+    top: 0;
+}
+
+.dashbord .list {
+    grid-area: col;
+    width: 100%;
+    background-color: #aaa;
+    height: 100vh;
+
+}
+
+.dashbord ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0.5rem 2rem;
+
+}
+
+.dashbord ul li {
+
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 10%;
+    background-color: rgb(9, 119, 83);
+}
